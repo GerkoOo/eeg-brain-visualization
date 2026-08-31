@@ -1,8 +1,8 @@
-numpy v2.4.6
-scipy v1.17.1
-matplotlib v3.11.0
-mne v1.12.1
-nibabel v5.4.2
-trimesh v 4.12.2
-jupyterlab v 4.5.8
-ipykernel  v 7.3.0
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.0
+mne==1.12.1
+nibabel==5.4.2
+trimesh==4.12.2
+jupyterlab==4.5.8
+ipykernel==7.3.0
