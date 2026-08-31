@@ -3,6 +3,8 @@
 Real-time EEG brain activity visualization pipeline: EEG and MRI data are
 processed in Python/MNE and rendered onto a 3D brain mesh in Blender.
 
+![EEG power mapped onto a 3D brain mesh in Blender](Documentation/screenshot.jpg)
+
 ## Project structure
 
 ```

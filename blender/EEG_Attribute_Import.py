@@ -1,8 +1,9 @@
 import bpy
 import numpy as np
+import os
 from bpy.app.handlers import persistent
 
-PROJECT_DIR = "/home/gerko/eeg_blender_project"
+PROJECT_DIR = os.path.dirname(os.path.dirname(bpy.data.filepath))
 
 bands = ['delta', 'theta', 'alpha', 'beta', 'gamma']
 band_data = {}

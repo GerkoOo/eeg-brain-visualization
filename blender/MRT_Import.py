@@ -1,6 +1,7 @@
 import bpy
 import numpy as np
-PROJECT_DIR = "/home/gerko/eeg_blender_project"
+import os
+PROJECT_DIR = os.path.dirname(os.path.dirname(bpy.data.filepath))
 
 def create_brain_mesh(name, verts, faces):
     mesh = bpy.data.meshes.new(name)
